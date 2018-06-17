@@ -1,0 +1,36 @@
+
+
+header{ text-align: center;
+ background-size: 120px 120px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color:rgba(192,192,192,0.1);
+ margin-bottom: 20px;
+}
+
+h1{ font-family: 'Pacifico', cursive;
+    color: white;
+   
+}
+
+h2{
+
+    font-family: 'Amatic SC', cursive;
+    color: white;
+  }
+
+
+
+
+body {   
+    background-image: url("http://www.ramascreen.com/wp-content/uploads/2017/04/Rampage-e1492440384421.jpg");
+    background-size: 990px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 160px;  
+    background-color: black;
+    
+}
+
+
+
