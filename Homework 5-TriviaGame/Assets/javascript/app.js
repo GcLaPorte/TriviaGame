@@ -22,62 +22,58 @@ var eighthAnswers = ["a: Primal Fear", "b: Inception", "c: Finding Nemo"];
 var ninthAnswers = ["a: Hotel Rwanda", "b: Batman Vs. Superman", "c:Die Hard"];
 var tenthAnswers = ["a: Office Space", "b: The Godfather", "c: Star Wars"];
 
+function answer(correctAnswer) {
+  alert("Test!");
+  append()
+}
+
+
+function setup(){
+  noCanvs();
+
+var timer = getelementbyid('#timer');
+timer.html('stuff');
+
+}
 
 
 
-$(document).ready(function(){
+
+
 
 	$("#One").text(firstQuestion);
-  $('#1answers').text(firstAnswers);
+  
   
   $("#second").text(secondQuestion);
-  $('#2answers').text(secondAnswers);
+  
   
   $("#third").text(thirdQuestion);
-	$('#3answers').text(thirdAnswers);
+	
   
   $("#fourth").text(fourthQuestion);
-  $('#4answers').text(fourthAnswers);
+ 
   
   $("#fifth").text(fifthQuestion);
-  $('#5answers').text(fifthAnswers);
+  
   
 	$("#sixth").text(sixthQuestion);
-  $('#6answers').text(sixthAnswers);
+  
   
   $("#seventh").text(seventhQuestion);
-  $('#7answers').text(seventhAnswers);
+ 
   
   $("#eighth").text(eighthQuestion);
-	$('#8answers').text(eighthAnswers);
+
   
   $("#ninth").text(ninthQuestion);
-  $('#9answers').text(ninthAnswers);
+  
   
   $("#ten").text(finalQuestion);
-  $('#10answers').text(tenthAnswers);
-  
-  console.log();
-  
-})
+
+ 
 
 
-	
-var countDown = new Date("Sep 5, 2018 15:37:25").getTime();
 
-var x = setInterval(function() {
 
-  var now = new Date().getTime();
 
-  var distance = countDownDate - now;
 
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("display").innerHTML = minutes + "m " + seconds + "s ";
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "Time up!";
-  }
-}, 1000);
