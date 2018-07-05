@@ -32,8 +32,9 @@ body {
     
 }
 
-#TEST2{
-    color: white
+p{
+    color: white;
+    text-align: center;
 }
 
 
